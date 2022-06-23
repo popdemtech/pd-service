@@ -170,7 +170,6 @@ app.use(function (error, request, response, next) {
   response.status(error.statusCode);
   response.json({ message: error.message });
 });
-
 ```
 This code checks for the existance of the a property `apiError` on the `error` parameter. If it is not present, the function passes the error to the next error handling middleware. If the property is present, the status of the response is set to the statusCode of the error, and a JSON response is returned with the error's message.
 

@@ -8,9 +8,15 @@
   <p><i>{{ book.author }}</i></p>
   <p>{{ book.description }}</p>
   <hr>
+
+  {% assign frontMatter = bookTree | where: 'slug', 'front-matter' | first %}
+  <div class="book-front-matter">
+    {{ frontMatter.content }}
+  </div>
+
   <div class="book-sections">
     {% for section in bookTree %}
-      <div class="book-section-panel" style="border:1px solid #ababab;margin-bottom: 20px;padding:20px;">
+      <div class="book-section-panel" style="margin-bottom: 20px;">
         {% render 'books/book-section.liquid', section: section, depth: 1 %}
       </div>
     {% endfor %}
@@ -18,16 +24,11 @@
 </div>
 
 <style>
-  h2{
-    font-size:  40px;
-  }
   .depth-1 {
-    font-size:  32px;
     font-weight:  bold;
     margin-bottom:  5px;
   }
   .depth-2 {
-    font-size:  28px;
     margin-left: 28px;
     font-weight:  normal;
   }

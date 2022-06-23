@@ -1,11 +1,13 @@
-# `smartsite` by Popular Demand
+# Build a `smartsite` by Popular Demand
 
 *Web Application Fundamentals Made Simple*
 
-Hey everyone. Welcome to a guide to Web Development.
+This is a guide to Web Development.
 
-The purpose of `smartsite` is to provide interested individuals with
-a launch point for building a personal web application.
+The purpose of Build a SmartSite is to provide interested individuals with
+a blueprint for building a personal web application.
+
+### Prerequisites
 
 Before beginning, the individual must be able to:
 <ol type="a">
@@ -15,22 +17,21 @@ Before beginning, the individual must be able to:
 </ol>
 
 Using the command-line interface is likely the least familiar of the skills.
-Luckily, commands that are **necessary** for building the application
+Commands that are **necessary** for building the application
 will be given by the walkthrough. Still, because the command-line will be one of the primary development tools, beginner level proficiency is recommended.
 
 The guides will present a path of Node.js web development that it known to work.
 Differences in operating system and setup may require modifications to the instructions.
 
-## The Process
-There is One Step:
-1. Follow the Walkthrough
+### Content Layout
 
-## How to Read the Walkthrough
+The building process is presented in three parts:
+1. Setup
+2. Basics
+3. Features
 
-The Walkthrough is presented in three sections:
-* Setup
-* Basics
-* Features
+Each part contains the theory behind the components to be added
+to the `smartsite`. Implementation details are given as step-by-step walkthroughs.
 
 ### Setup
 The Setup section ensures the developer has the required libraries
@@ -38,7 +39,7 @@ and programs installed. Anyone who has been developing web applications
 for any amount of time may already have libraries like Node.js and PostgreSQL installed.
 Regardless, go through the setup steps to ensure parity with the example application.
 
-### The Basics
+### Basics
 The Basics covers the key building blocks for creating a web application.
 * Deliver static HTML pages
 * Deliver dynamically rendered content
@@ -57,19 +58,20 @@ for extending the functionality of smartsite.
 
 The Features are standalone front-end or full-stack modules that can be completed in any order.
 
-## How to Begin
-Begin with the **Setup** instructions -- install the libraries and run the Node installation commands.
+### How to Begin
+Begin with the **Setup** instructions which include installing core libraries and running the Node installation commands.
 
 As you continue through the tutorial, what began as a directory with not much more than a walkthrough blossoms into a featured and interactive web application. This application can serve as your personal site, small-business database system, or become a product prototype.
 
-## What Next
+### What Next
 After you've comepleted building out `smartsite`, you will have the tools of web development in hand. With the skills, you can:
+
 * Provide value on the internet with your app ideas
 * Continue learning web development in pursuit of a career in software
 * Prototype the next Big Idea (you'll know as much as Zuckerberg)
 
 If you find yourself building out cool new features in your `smartsite`, aid future learners by contributing a walkthrough to the `smartsite` parent repository. It will be added to the **Features** section as an optional `smartsite` add-on. Thanks in advance!
 
-Cheers and Happy Building.
-Alexa Anderson
+Happy Building.
+Popular Demand
 @popdemtech
