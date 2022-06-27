@@ -3,7 +3,7 @@
 {% if section.childSections %}
   <div class="child-section-list">
 	{% for childSection in section.childSections %}
-	{% render 'books/book-section-list-item.liquid', section: childSection, depth: 1 %}
+	<p class="book-section-list-item section-title depth-{{ depth }}">{{ childSection.title }}</p>
 	{% endfor %}
   </div>
 {% endif %}
